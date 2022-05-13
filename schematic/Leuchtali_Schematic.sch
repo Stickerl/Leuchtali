@@ -8161,7 +8161,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="L1" library="rcl" deviceset="L-EU" device="0204/5" value="4.1uH 2A"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1.263k"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="22.737k"/>
-<part name="R_SENS" library="rcl" deviceset="R-EU_" device="R0805" value="0.1"/>
+<part name="R_SENS0" library="rcl" deviceset="R-EU_" device="R0805" value="0.1"/>
 <part name="D4" library="diode" deviceset="BAS40" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -8169,17 +8169,17 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="15k"/>
 <part name="S1" library="switch" deviceset="320-916" device=""/>
 <part name="F1" library="fuse" deviceset="GSH15" device=""/>
-<part name="R1" library="rcl" deviceset="POTENTIOMETER_" device="PT-10"/>
-<part name="IC1" library="v-reg" deviceset="78LXX" device=""/>
+<part name="R1" library="rcl" deviceset="POTENTIOMETER_" device="PT-10" value="2.5k"/>
+<part name="IC1" library="v-reg" deviceset="78LXX" device="" value="AP2205-18W5-7"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="IC2" library="LT1618EMS" deviceset="LT1618EMS#PBF" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="LED4" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
@@ -8195,17 +8195,17 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="15k"/>
-<part name="R11" library="rcl" deviceset="POTENTIOMETER_" device="PT-10"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1uF"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="025-024X044" value="0.33uF"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="025-024X044"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="025-024X044"/>
+<part name="R11" library="rcl" deviceset="POTENTIOMETER_" device="PT-10" value="2.5k"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="025-024X044" value="2.2uF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="025-024X044" value="1uF"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="025-024X044" value="100nF"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="025-024X044" value="100nF"/>
 <part name="IC3" library="LT1618EMS" deviceset="LT1618EMS#PBF" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="LED7" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
@@ -8221,9 +8221,9 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="15k"/>
 <part name="IC5" library="LT1618EMS" deviceset="LT1618EMS#PBF" device=""/>
@@ -8241,9 +8241,9 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 25V"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF 35V min"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="15k"/>
 </parts>
@@ -8263,7 +8263,7 @@ grid 15mm, 19649 Wickmann</description>
 <instance part="L1" gate="G$1" x="53.34" y="134.62" rot="R270"/>
 <instance part="R3" gate="G$1" x="106.68" y="119.38" rot="R90"/>
 <instance part="R5" gate="G$1" x="106.68" y="99.06" rot="R90"/>
-<instance part="R_SENS" gate="G$1" x="91.44" y="134.62" rot="R180"/>
+<instance part="R_SENS0" gate="G$1" x="91.44" y="134.62" rot="R180"/>
 <instance part="D4" gate="1" x="68.58" y="134.62"/>
 <instance part="P+1" gate="VCC" x="20.32" y="210.82"/>
 <instance part="GND5" gate="1" x="106.68" y="88.9"/>
@@ -8273,7 +8273,7 @@ grid 15mm, 19649 Wickmann</description>
 <instance part="C1" gate="G$1" x="40.64" y="88.9"/>
 <instance part="C2" gate="G$1" x="83.82" y="101.6"/>
 <instance part="GND8" gate="1" x="83.82" y="88.9"/>
-<instance part="C3" gate="G$1" x="20.32" y="101.6"/>
+<instance part="C3" gate="G$1" x="20.32" y="96.52"/>
 <instance part="C4" gate="G$1" x="27.94" y="101.6"/>
 <instance part="R7" gate="G$1" x="27.94" y="124.46" rot="R90"/>
 <instance part="S1" gate="1" x="30.48" y="200.66" rot="R90"/>
@@ -8390,7 +8390,7 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="40.64" y1="76.2" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="81.28" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="96.52" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="91.44" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <junction x="40.64" y="81.28"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -8577,7 +8577,7 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="83.82" y1="134.62" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="ISP"/>
 <wire x1="83.82" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R_SENS" gate="G$1" pin="2"/>
+<pinref part="R_SENS0" gate="G$1" pin="2"/>
 <pinref part="D4" gate="1" pin="C"/>
 <wire x1="71.12" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
@@ -8589,7 +8589,7 @@ grid 15mm, 19649 Wickmann</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R_SENS" gate="G$1" pin="1"/>
+<pinref part="R_SENS0" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
@@ -8655,7 +8655,7 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="53.34" y1="170.18" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCC_33" class="0">
+<net name="VCC_1.8" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="1" pin="OUT"/>
@@ -8786,7 +8786,7 @@ grid 15mm, 19649 Wickmann</description>
 <junction x="35.56" y="134.62"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="104.14" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="99.06" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="129.54" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
 <junction x="27.94" y="134.62"/>
 <wire x1="20.32" y1="134.62" x2="17.78" y2="134.62" width="0.1524" layer="91"/>
