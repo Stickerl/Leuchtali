@@ -8250,6 +8250,7 @@ grid 15mm, 19649 Wickmann</description>
 <sheets>
 <sheet>
 <plain>
+<text x="45.72" y="96.52" size="1.778" layer="91">2x1k bestücken!</text>
 </plain>
 <instances>
 <instance part="IC4" gate="G$1" x="76.2" y="106.68" smashed="yes" rot="R180">
